@@ -12,7 +12,7 @@ class SongsController < ApplicationController
   end
 
   def create
-        byebuh
+        byebug
     @song = Song.new(song_params)
 
     if @song.save
